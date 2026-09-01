@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <fieldset>
+        <legend>Dados Pessoais</legend>
+        <form>
+            <label for="fname">Nome:</label>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="fdate">Data de nascimento</label>
+            <input type="date" id="date" value=""><br>
+            <label for="fend">Endereço:</label>
+            <input type="text" id="fend" value=""><br>
+            <label for="fbairro">Bairro</label>
+            <input type="text" id="fbairro" value="">
+            <label for="fcidade">Cidade</label>
+            <input type="text" id="fcidade" value=""><br>
+            <label for="fcep">CEP</label>
+            <input type="number" id="fcep" value="">
+            <label for="festado">Estado</label>
+           <select name="estado" id="estado">
+            <option value="">Selecione</option>
+           <option value="Ceara">Ceará</option>
+           <option value="Manaus">Mánaus</option>
+           </select>
+
+           <label for="fcor">Cor Favorita</label>
+           <input type="color" id="fcolor" value=""><br>
+           <label for="fnivel">Nível de satisfação</label>
+           <input type="range" id="frange">
+        </form>
+    </fieldset>
+
+    <fieldset>
+        <form>        
+            <legend>Dados profissionais</legend>
+
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> Gerencia</label>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> Financeiro</label>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> Recepção</label>
+         <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> Administrativo</label>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> Jurídico</label><br>
+        <legend>Área de interresse</legend>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> Computação</label>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> Química</label>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> Meio ambiente</label>
+         <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1">Engenharia</label>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2">Matemática</label><br>
+        <label for="mini_curriculo">Mini-curriculo:</label><br>
+        <textarea name="fcurriculo" id="fcurriculo"   rows="4" cols="20"></textarea>
+
+        
+
+
+
+        </form>
+        
+
+
+    </fieldset>
+</body>
+</html>
